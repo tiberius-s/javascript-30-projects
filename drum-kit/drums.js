@@ -17,11 +17,11 @@ const keyDownHandler = (e) => {
 }
 
 const clickHandler = (e) => {
-  let target = e.target;
-  while (target.classList.contains('key') !== false) {
-    target = target.parentNode;
+  let el = e.target;
+  while (el.classList.contains("key") === false ) {
+    el = el.parentNode;
   }
-  playSound(target.dataset.key);
+  playSound(el.dataset.key);
 }
 
 const keys = Array.from(document.querySelectorAll('.key'));
