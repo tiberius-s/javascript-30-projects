@@ -4,6 +4,7 @@ html {
   background-size: cover;
 }
 body,html {
+  display: grid;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
