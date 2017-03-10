@@ -1,0 +1,23 @@
+{
+  "name": "javascript-30-projects",
+  "version": "1.0.0",
+  "description": "### Recently came across the [JavaScript30](https://javascript30.com/) course, and it looks like it contains a lot of exercises with which I can stay sharp. Even better, these challenges are all in plain JS, so it's nice to work through these without the crutch of a framework of library.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiberius-s/javascript-30-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiberius-s/javascript-30-projects/issues"
+  },
+  "homepage": "https://github.com/tiberius-s/javascript-30-projects#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
