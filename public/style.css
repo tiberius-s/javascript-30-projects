@@ -1,0 +1,22 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.project-list{
+  font-size: 1.2rem;
+}
+
+.project-inline{
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
